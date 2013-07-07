@@ -1,0 +1,17 @@
+{<img src="https://codeclimate.com/github/mattways/hyphenify.png" />}[https://codeclimate.com/github/mattways/hyphenify] {<img src="https://travis-ci.org/mattways/hyphenify.png?branch=master" alt="Build Status" />}[https://travis-ci.org/mattways/hyphenify] {<img src="https://gemnasium.com/mattways/hyphenify.png" alt="Dependency Status" />}[https://gemnasium.com/mattways/hyphenify]
+
+= Hyphenify
+
+Hacks routes and tags to always use hyphens.
+
+= Install
+
+Put this line in your Gemfile:
+  gem 'hyphenify'
+  
+Then bundle:
+  $ bundle
+
+= Usage
+
+Nothing to do! Yay! 
