@@ -2,7 +2,7 @@
 
 = Hyphenify
 
-Hacks routes and tags to always use hyphens.
+Hacks tags helpers to always use hyphens.
 
 = Install
 

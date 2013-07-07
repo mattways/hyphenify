@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = ['Mattways']
   s.email       = ['contact@mattways.com']
   s.homepage    = 'https://github.com/mattways/hyphenify'
-  s.summary     = 'Force hyphens in routes and tags.'
-  s.description = 'Hacks routes and tags to always use hyphens.'
+  s.summary     = 'Force hyphens in tags.'
+  s.description = 'Hacks tags helpers to always use hyphens.'
 
   s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.rdoc']
   s.test_files = Dir['test/**/*']
