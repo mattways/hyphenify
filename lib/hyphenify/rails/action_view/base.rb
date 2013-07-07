@@ -12,9 +12,7 @@ module Hyphenify
 
         def tag_options_with_hyphen(options, escape = true)
           options.stringify_keys!
-          %w[id class].each do |key|
-            options[key] = options[key].to_s.dasherize if options.has_key? key
-          end
+          %w[id class].each { |key| options[key] = options[key].to_s.dasherize if options.has_key? key }
           tag_options_without_hyphen options, escape 
         end
 
