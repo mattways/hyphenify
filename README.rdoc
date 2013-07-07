@@ -2,7 +2,7 @@
 
 = Hyphenify
 
-Hacks tags helpers to always use hyphens.
+Hacks rails tags helpers to always use hyphens.
 
 = Install
 
