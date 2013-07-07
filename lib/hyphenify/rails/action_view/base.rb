@@ -5,14 +5,17 @@ module Hyphenify
         extend ActiveSupport::Concern
 
         included do
-          alias_method_chain :tag_option, :hyphen
+          alias_method_chain :tag_options, :hyphen
         end
 
         private
 
-        def tag_option_with_hyphen(key, value, escape)
-          value = value.to_s.dasherize if %w[id class].include? key.to_s
-          tag_option_without_hyphen key, value, escape
+        def tag_options_with_hyphen(options, escape = true)
+          options.stringify_keys!
+          %w[id class].each do |key|
+            options[key] = options[key].to_s.dasherize if options.has_key? key
+          end
+          tag_options_without_hyphen options, escape 
         end
 
       end
