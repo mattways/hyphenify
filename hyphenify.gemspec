@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.authors     = ['Mattways']
   s.email       = ['contact@mattways.com']
   s.homepage    = 'https://github.com/mattways/hyphenify'
-  s.summary     = 'Force hyphens in tags helpers.'
+  s.summary     = 'Hyphens for Rails.'
   s.description = 'Hacks tags helpers to always use hyphens.'
   s.license     = 'MIT'
 
