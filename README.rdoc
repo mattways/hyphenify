@@ -1,4 +1,4 @@
-{<img src="https://codeclimate.com/github/mattways/hyphenify.png" />}[https://codeclimate.com/github/mattways/hyphenify] {<img src="https://travis-ci.org/mattways/hyphenify.png?branch=master" alt="Build Status" />}[https://travis-ci.org/mattways/hyphenify] {<img src="https://gemnasium.com/mattways/hyphenify.png" alt="Dependency Status" />}[https://gemnasium.com/mattways/hyphenify]
+{<img src="https://badge.fury.io/rb/hyphenify.png" alt="Gem Version" />}[http://badge.fury.io/rb/hyphenify] {<img src="https://codeclimate.com/github/museways/hyphenify.png" />}[https://codeclimate.com/github/museways/hyphenify] {<img src="https://travis-ci.org/museways/hyphenify.png?branch=master" alt="Build Status" />}[https://travis-ci.org/museways/hyphenify] {<img src="https://gemnasium.com/museways/hyphenify.png" alt="Dependency Status" />}[https://gemnasium.com/museways/hyphenify]
 
 = Hyphenify
 
