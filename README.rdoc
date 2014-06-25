@@ -1,17 +1,25 @@
-{<img src="https://badge.fury.io/rb/hyphenify.png" alt="Gem Version" />}[http://badge.fury.io/rb/hyphenify] {<img src="https://codeclimate.com/github/museways/hyphenify.png" />}[https://codeclimate.com/github/museways/hyphenify] {<img src="https://travis-ci.org/museways/hyphenify.png?branch=master" alt="Build Status" />}[https://travis-ci.org/museways/hyphenify] {<img src="https://gemnasium.com/museways/hyphenify.png" alt="Dependency Status" />}[https://gemnasium.com/museways/hyphenify]
+{<img src="https://badge.fury.io/rb/hyphenify.png" alt="Gem Version" />}[http://badge.fury.io/rb/hyphenify] {<img src="https://codeclimate.com/github/museways/hyphenify.png" />}[https://codeclimate.com/github/museways/hyphenify] {<img src="https://travis-ci.org/museways/hyphenify.png?branch=master" alt="Build Status" />}[https://travis-ci.org/museways/hyphenify]
 
 = Hyphenify
 
-Hacks rails tags helpers to always use hyphens.
+Makes tags helpers use hyphens in rails.
 
 = Install
 
 Put this line in your Gemfile:
   gem 'hyphenify'
-  
+
 Then bundle:
   $ bundle
 
 = Usage
 
-Nothing to do! Yay! 
+Nothing to do! Yay!
+
+= Credits
+
+This gem is maintained and funded by museways[http://museways.com].
+
+= License
+
+It is free software, and may be redistributed under the terms specified in the MIT-LICENSE file.

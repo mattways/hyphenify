@@ -10,8 +10,8 @@ Gem::Specification.new do |s|
   s.authors     = ['Museways']
   s.email       = ['hello@museways.com']
   s.homepage    = 'https://github.com/museways/hyphenify'
-  s.summary     = 'Hyphens for Rails.'
-  s.description = 'Hacks tags helpers to always use hyphens.'
+  s.summary     = 'Hyphens for rails.'
+  s.description = 'Makes tags helpers use hyphens in rails.'
   s.license     = 'MIT'
 
   s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.rdoc']
