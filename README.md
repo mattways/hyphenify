@@ -12,8 +12,9 @@ gem 'hyphenify'
 ```
 
 Then bundle:
-
-    $ bundle
+```
+$ bundle
+```
 
 ## Usage
 
