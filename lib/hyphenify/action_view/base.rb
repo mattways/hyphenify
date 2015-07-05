@@ -16,7 +16,7 @@ module Hyphenify
             options[key] = options[key].to_s.dasherize
           end
         end
-        tag_options_without_hyphen options, escape 
+        tag_options_without_hyphen options, escape
       end
 
     end
