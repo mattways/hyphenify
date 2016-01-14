@@ -7,9 +7,9 @@ require 'hyphenify/version'
 Gem::Specification.new do |s|
   s.name        = 'hyphenify'
   s.version     = Hyphenify::VERSION
-  s.authors     = ['Museways']
-  s.email       = ['hello@museways.com']
-  s.homepage    = 'https://github.com/museways/hyphenify'
+  s.authors     = ['mmontossi']
+  s.email       = ['mmontossi@buyin.io']
+  s.homepage    = 'https://github.com/mmontossi/hyphenify'
   s.summary     = 'Hyphens for rails.'
   s.description = 'Makes tags helpers use hyphens in rails.'
   s.license     = 'MIT'
