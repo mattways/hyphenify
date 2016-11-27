@@ -1,7 +1,7 @@
 module Dashify
   module Extensions
     module ActionView
-      module Base
+      module TagHelper
         extend ActiveSupport::Concern
 
         private

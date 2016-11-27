@@ -1,4 +1,4 @@
-require 'dashify/extensions/action_view/base'
+require 'dashify/extensions/action_view/tag_helper'
 require 'dashify/railtie'
 require 'dashify/version'
 

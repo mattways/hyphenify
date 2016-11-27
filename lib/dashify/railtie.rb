@@ -3,7 +3,7 @@ module Dashify
 
     initializer :dashify do
       ::ActionView::Helpers::TagHelper.prepend(
-        Dashify::Extensions::ActionView::Base
+        Dashify::Extensions::ActionView::TagHelper
       )
     end
 
