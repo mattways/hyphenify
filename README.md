@@ -1,17 +1,23 @@
-[![Gem Version](https://badge.fury.io/rb/hyphenify.svg)](http://badge.fury.io/rb/hyphenify)
-[![Code Climate](https://codeclimate.com/github/mmontossi/hyphenify/badges/gpa.svg)](https://codeclimate.com/github/mmontossi/hyphenify)
-[![Build Status](https://travis-ci.org/mmontossi/hyphenify.svg)](https://travis-ci.org/mmontossi/hyphenify)
-[![Dependency Status](https://gemnasium.com/mmontossi/hyphenify.svg)](https://gemnasium.com/mmontossi/hyphenify)
+[![Gem Version](https://badge.fury.io/rb/dashify.svg)](http://badge.fury.io/rb/dashify)
+[![Code Climate](https://codeclimate.com/github/mmontossi/dashify/badges/gpa.svg)](https://codeclimate.com/github/mmontossi/dashify)
+[![Build Status](https://travis-ci.org/mmontossi/dashify.svg)](https://travis-ci.org/mmontossi/dashify)
+[![Dependency Status](https://gemnasium.com/mmontossi/dashify.svg)](https://gemnasium.com/mmontossi/dashify)
 
-# Hyphenify
+# Dashify
 
-Makes tags helpers use hyphens in rails.
+Makes tags helpers use dashes in rails.
+
+## Why
+
+I did this gem to:
+
+- Normalize all html with dashes instead of underscores.
 
 ## Install
 
 Put this line in your Gemfile:
 ```ruby
-gem 'hyphenify'
+gem 'dashify'
 ```
 
 Then bundle:
