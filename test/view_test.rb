@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class TagsTest < ActionView::TestCase
+class ViewTest < ActionView::TestCase
 
   test 'tags dashes' do
     div = tag(:div, class: 'the_class', id: 'test_id')
