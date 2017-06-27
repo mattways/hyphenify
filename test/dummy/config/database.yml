@@ -1,0 +1,10 @@
+default: &default
+  adapter: postgresql
+
+development:
+  <<: *default
+  database: dashify_development
+
+test:
+  <<: *default
+  database: dashify_test

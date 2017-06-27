@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class ViewTest < ActionView::TestCase
+class HelperTest < ActionView::TestCase
 
   test 'tags dashes' do
     div = tag(:div, class: 'the_class', id: 'test_id')
@@ -9,7 +9,7 @@ class ViewTest < ActionView::TestCase
   end
 
   test 'forms dashes' do
-    form = form_for(:test, url: 'http://test.com') do |f|
+    form = form_with(url: 'http://test.com', id: 'test_id') do |f|
       f.text_field :id, class: 'the_class'
     end
     assert form.include?('class="the-class"')

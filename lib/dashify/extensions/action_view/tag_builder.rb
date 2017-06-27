@@ -1,10 +1,8 @@
 module Dashify
   module Extensions
     module ActionView
-      module TagHelper
+      module TagBuilder
         extend ActiveSupport::Concern
-
-        private
 
         def tag_options(options, escape=true)
           options.stringify_keys!
